@@ -5,3 +5,26 @@ This will clear the console output.
 Run the file once while the tasks are longer. 
 
 Copy and paste the terminal results (when task_duration is 3) here.
+STARTING UP.............................
+  Date and Time:    2023-09-06 at 09:15 PM
+  Operating System: posix Darwin 22.1.0
+  Python Version:   3.10.5
+  Path to Interpreter:  /usr/local/bin/python3
+======================================================================
+
+2023-09-06 21:15:55,544 - INFO - Called recreate_database().
+2023-09-06 21:15:55,544 - INFO - Called drop_table().
+2023-09-06 21:15:55,556 - INFO - Table 'pets' dropped successfully.
+2023-09-06 21:15:55,557 - INFO - Called create_table().
+2023-09-06 21:15:55,559 - INFO - Table 'pets' created successfully.
+2023-09-06 21:15:55,681 - INFO - Called process_one().
+2023-09-06 21:15:55,681 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2023-09-06 21:15:55,681 - INFO - Called process_two().
+2023-09-06 21:15:55,681 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2023-09-06 21:15:55,683 - INFO - Called process_three().
+2023-09-06 21:15:55,683 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2023-09-06 21:15:58,693 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2023-09-06 21:16:00,861 - ERROR - ERROR while P3 inserting pet Emma: database is locked
+2023-09-06 21:16:00,861 - ERROR - ERROR while P2 inserting pet Cooper: database is locked
+2023-09-06 21:16:00,862 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2023-09-06 21:16:00,863 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.

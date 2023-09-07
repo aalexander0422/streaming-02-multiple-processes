@@ -36,7 +36,7 @@ logging.basicConfig(
 
 
 # Declare program constants (typically constants are named with ALL_CAPS)
-
+TASK_DURATION_SECONDS = 3 
 TASK_DURATION_SECONDS = 3 # TODO: increase this to 3 and see what happens
 DIVIDER = "=" * 70  # A string divider for cleaner output formatting
 DB_NAME = "shared.db"
